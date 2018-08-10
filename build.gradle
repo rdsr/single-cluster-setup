@@ -1,0 +1,8 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+}
+
+group 'rdsr'
+version '0.0.1'

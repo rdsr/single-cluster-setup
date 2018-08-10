@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+   <property>
+    <name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:derby:;databaseName=${java.io.tmpdir}/hive/metastore.db;create=true</value>
+    <source>hive-site.xml</source>
+  </property>
+  <property>
+    <name>hive.exec.scratchdir</name>
+    <value>${java.io.tmpdir}/hive/hive-scratch-dir</value>
+    <source>hive-site.xml</source>
+  </property>
+  <property>
+    <name>javax.jdo.option.ConnectionDriverName</name>
+    <value>org.apache.derby.jdbc.EmbeddedDriver</value>
+    <source>hive-site.xml</source>
+  </property>
+  <property>
+    <name>hive.metastore.warehouse.dir</name>
+    <value>${java.io.tmpdir}/hive/warehouse</value>
+    <source>hive-site.xml</source>
+  </property>
+  <property>
+    <name>datanucleus.autoCreateTables</name>
+    <value>true</value>
+    <source>hive-site.xml</source>
+  </property>
+  <property>
+    <name>hive.metastore.uris</name>
+    <value>thrift://0.0.0.0:60083</value>
+    <source>hive-site.xml</source>
+  </property>
+</configuration>

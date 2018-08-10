@@ -1,0 +1,6 @@
+.idea
+.gradle/
+gradle/
+gradlew*
+setup/binaries/
+setup/build/

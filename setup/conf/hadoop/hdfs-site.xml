@@ -1,0 +1,67 @@
+<configuration>
+  <property>
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+  
+  <!-- dirs -->
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>file://${hadoop.tmp.dir}/hadoop/dfs/name</value>
+  </property>
+  <property>
+    <name>dfs.namenode.edits.dir</name>
+    <value>${dfs.namenode.name.dir}</value>
+  </property>
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file://${hadoop.tmp.dir}/hadoop/dfs/data</value>
+  </property>
+
+
+  <!---
+  <property>
+    <name>dfs.namenode.checkpoint.dir</name>
+    <value>file://${hadoop.tmp.dir}/hadoop/dfs/names</value>
+  </property>
+  <property>
+    <name>dfs.namenode.checkpoint.edits.dir</name>
+    <value>${dfs.namenode.checkpoint.dir}</value>
+  </property>
+  
+
+  <property>
+    <name>dfs.datanode.address</name>
+    <value>0.0.0.0:50010</value>
+  </property>
+  <property>
+    <name>dfs.datanode.http.address</name>
+    <value>0.0.0.0:50075</value>
+  </property>
+  <property>
+    <name>dfs.datanode.https.address</name>
+    <value>0.0.0.0:50475</value>
+  </property>
+  <property>
+    <name>dfs.datanode.ipc.address</name>
+    <value>0.0.0.0:50020</value>
+  </property>
+  <property>
+  <name>dfs.namenode.http-address</name>
+    <value>0.0.0.0:50070</value>
+  </property>
+  <property>
+    <name>dfs.namenode.https-address</name>
+    <value>0.0.0.0:50470</value>
+  </property>
+  <property>
+    <name>dfs.namenode.secondary.http-address</name>
+    <value>0.0.0.0:50090</value>
+  </property>
+  <property>
+    <name>dfs.namenode.secondary.https-address</name>
+    <value>0.0.0.0:50091</value>
+  </property>
+ -->
+
+</configuration>

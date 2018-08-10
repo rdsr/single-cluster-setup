@@ -1,0 +1,3 @@
+rootProject.name = 'dsf-test-bed'
+
+include ':setup'
