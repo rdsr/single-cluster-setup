@@ -1,4 +1,4 @@
-## Automated up of a single Hadoop cluster (HDFS + YARN) and Hive Metastore
+## Automated setup of a single Hadoop cluster (HDFS + YARN) and Hive Metastore
 
 ### Pre-requisite
 Make sure password-less ssh is setup correctly on the local machine
