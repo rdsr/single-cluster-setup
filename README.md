@@ -28,7 +28,7 @@ cd setup/binaries/hadoop
 bin/hdfs dfs -ls /
 
 cd setup/binaries/hive
-. env_var.sh # Set env variables
+. env_vars.sh # Set env variables
 bin/hive  # Start Hive
 
 Verify RM is up: http://localhost:8088/cluster
