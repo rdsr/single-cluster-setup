@@ -13,7 +13,7 @@ Update setup/conf/setup.cfg as required. For first time run, 'download.binaries'
 hive tgzs are not downloaded on every run.
 
 ### Setting up cluster
-```./gradlw setup:clusterSetup```
+```./gradlew setup:setupCluster```
 
 This will setup HDFS, YARN and Metastore. Application logging will be under setup/build/logs . Hadoop specific logs will be under
 setup/binaries/hadoop/logs.  Under each platform, environment variables needed to talk to the platform correctly will be written
